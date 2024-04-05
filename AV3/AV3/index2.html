@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Avaliação</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <div id="content">
+
+        <div id="container_form">
+
+
+
+            <div class="links">
+                <a id="login2" href="index2.html">Login</a>
+                <a id="register2" href="index.html">Register</a>
+
+            </div>
+
+            <div id="form">
+                <img id="image" src="logo.png" alt="Image">
+                <br>
+                <h2 id="form-title" style="text-align: center;">Login into your account</h2>
+                <br>
+
+                <form id="login-form">
+
+                    <label>Email</label>
+                    <br>
+                    <div class="logologin">
+                        <input type="email" name="loginEmail" placeholder="alex@email.com">
+                        <div class="imglogo"> <img src="Vector.svg" width="20px" height="20px"></div>
+                    </div>
+                    <br>
+                    <label>Password</label>
+                    <br>
+                    <div class="logologin">
+                        <input type="password" name="loginPassword" placeholder="Enter your password" required>
+                        <div class="imglogo"> <img src="Vector.png" width="20px" height="20px"></div>
+                    </div>
+                    <br>
+                    <a id="forgot-password" href="#">Forgot Password?</a>
+                    <br>
+                    <br>
+                    <button id="botaoenter" type="submit" onclick="validateLoginForm()">Login</button>
+
+                </form>
+            </div>
+
+
+        </div>
+
+        <div id="container_img">
+            <img id="outraimg" src="login-illustrator.svg" alt="">
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Avaliação</title>
+</head>
+
+<body>
+
+    <div id="content">
+
+        <div id="container_form">
+
+
+
+            <div class="links">
+                <a id="login" href="index2.html">Login</a>
+                <a id="register" href="index.html">Register</a>
+            </div>
+
+            <div id="form">
+                <img id="image" src="logo.png" alt="Image">
+                <h2 id="form-title" style="text-align: center;">Create your account</h2>
+                <br>
+                <form id="register-form">
+                    <label>Full Name</label>
+                    <br>
+                    <input type="text" name="fullname" placeholder="John Doe">
+                    <br>
+                    <label>Email</label>
+                    <br>
+                    <input type="email" name="email" placeholder="john@email.com">
+                    <br>
+                    <label>Password</label>
+                    <br>
+                    <input type="password" name="password" placeholder="Enter your password" required minlength="8">
+                    <br>
+                    <a id="forgot-password" href="#">Forgot Password?</a>
+                    <br>
+                    <br>
+                    <button id="botaoenter" type="submit" onclick="validateRegisterForm()">Create Account</button>
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+        <div id="container_img">
+            <img id="outraimg" src="login-illustrator.svg" alt="">
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
